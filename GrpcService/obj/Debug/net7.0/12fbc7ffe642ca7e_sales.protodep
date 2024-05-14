@@ -1,0 +1,4 @@
+obj\Debug\net7.0\Protos/Sales.cs \
+obj\Debug\net7.0\Protos/SalesGrpc.cs: C:/Users/Sohrab/.nuget/packages/grpc.tools/2.49.0/build/native/include/google/protobuf/timestamp.proto\
+ C:/Users/Sohrab/.nuget/packages/grpc.tools/2.49.0/build/native/include/google/protobuf/empty.proto\
+ Protos/sales.proto

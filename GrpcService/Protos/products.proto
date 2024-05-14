@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcService.Protos";
+
+message ProductDto{
+	int32 id=1;
+	string name=2;
+}
+
+message ProductResponse{
+	string message=1;
+}
+
+message MultiRespons{
+	repeated ProductResponse result=1;
+}
+
+service ProductsService{
+	rpc InsertProduct(stream ProductDto) returns (MultiRespons);
+}
